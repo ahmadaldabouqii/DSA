@@ -6,6 +6,7 @@ class Solution {
      * @param String[] $letters
      * @param String $target
      * @return String
+     * https://leetcode.com/problems/find-smallest-letter-greater-than-target/description
      */
     public function nextGreatestLetter($letters, $target) {
         // O(n)
@@ -36,4 +37,4 @@ class Solution {
 }
 
 $obj = new Solution;
-echo $obj->nextGreatestLetter(['b', 'c', 'd', 'e'], 'c');
+echo $obj->nextGreatestLetter(["b", "c", "d", "e"], "c");
